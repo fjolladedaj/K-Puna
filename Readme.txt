@@ -1,4 +1,4 @@
-== Theme Name: Landing Page Bundle-Freebie-html-template
+== Theme Name: Maguwohost-Free-One-Page-hosting-Template
 
 == Copyright (c) 2016 BootstrapThemes.co
 
@@ -8,8 +8,8 @@
 Html Created by: http://bootstrapthemes.co
 
 
+Psd Created by: https://www.behance.net/gallery/19008961/Maguwohost-Free-PSD-hosting-Template
 
-Psd Created by: --Mushfiqul Islam-- https://www.behance.net/gallery/28113847/Landing-Page-Bundle-Freebie
 
 
 Rights: 

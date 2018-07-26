@@ -2,7 +2,7 @@
 
 /*
 Author: Bootstrapthemes
-Author URI: http://www.bootstrapthemes.co
+Author URI: http://bootstrapthemes.co
 */
 
 /* Portrait tablets and medium desktops */
@@ -10,65 +10,69 @@ Author URI: http://www.bootstrapthemes.co
     body {
         font-size: 1rem;
     }
-
-    .header .navbar-form {
-        margin-right: 20px;
+    .call_us_menu .call_us_bottom .phone_numbr a{
+        font-size: 1.125rem;
+        font-family: 'latobold';
+        color: #fff;
     }
+    .main_home_searce_domain_content input[type="text"] {
+        min-width: 14.1875rem;
+    }
+    .form-control {
+        width: 5.125rem;
+        padding: 5px;
+    }
+    .main_home_searce_domain_content input[type="submit"] {
+        max-width: 8.6875rem;
+        padding: 0px 7px;
+    }
+    .single_webhost_left_content h3{
+        font-size: 2rem;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature h3 {
+        font-size: 1.575rem;
+    }
+
 
 }
 
 /* Portrait tablets and small desktops */
-@media (max-width: 991px) {
+@media  (min-width:769px) and (max-width: 991px) {
     html {
         font-size: 90%;
     }
-    h3 {
-        font-size: 1.575rem;
-        line-height: 2rem;
-        font-family: 'open_sanslight';
-        margin-bottom: 15px;
-    }
-    h5 {
-        font-size: 1.1rem;
-        margin-bottom: .5rem;
-        color: #696f7c;
-        font-family: 'open_sanslight';
-        line-height: 1.475rem;
-    }
-    .header .navbar-form {
-        margin-right: 20px;
-    }
-	
-
-    .single_new_top_one p {
-        font-size: 0.875rem;
-        color: #44484f;
-        line-height: 1.2775rem;
-    }
-    .new_two_area .singel_two_left_vedio {
-        max-width: 100%;
-        margin-left:0;
-    }
-    .new_two_area .single_two_right_content p {
-        font-size: 1.5rem;
-        line-height: 2.3rem;
-        width: 80%;
-    }
-
-    .news_three_area .single_new_three_left {
-        max-width: 100%;
-        margin-left:0;
-        padding: 30px 10px 0px 30px;
-		
-    }
-
-    .single_news_four p {
+    .call_us_menu .call_us_bottom .phone_numbr a{
+        font-size: 1.025rem;
+        font-family: 'latobold';
         color: #fff;
+    }
+    .main_home_searce_domain_content input[type="text"] {
+        min-width: 10.1875rem;
+        font-size: 0.875rem;
+    }
+    .form-control {
+        width: 4.125rem;
+        height: 56px;
+        font-size: 0.875rem;
+        padding: 2px;
+    }    
+    .main_home_searce_domain_content input[type="submit"] {
+        max-width: 6.6875rem;
+        height: 56px;
+        padding: 0px 5px;
+        font-size: 0.675rem;
+    }  
+    .single_webhost_left_content h3{
         font-size: 1.5rem;
-        line-height: 2.5rem;
-        font-family: 'open_sanslight_italic';
-        margin-bottom: 20px;
-        max-width: 90%;
+    }
+    .single_webhost_right_content h3{
+        font-size: 1.5rem;
+    }
+    .main_webhost_service_area .single_webhost_right {
+        padding-top: 181px;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature h3 {
+        font-size: 1.175rem;
     }
 
 
@@ -77,52 +81,76 @@ Author URI: http://www.bootstrapthemes.co
 
 }
 /* Landscape phones and portrait tablets */
-@media  (max-width: 768px) {
+@media (min-width:480px) and (max-width: 768px) {
     html {
         font-size: 80%;
     }
-	
-    .single_widget_right .navbar-form {
-        padding: 0px 15px;
+    .header_top_bar{
+        display: none;
     }
-    .single_widget_right .submit_btn span {
-        line-height: 50px;
-    }
-	.top_new_one_left{
-		max-width:100%;
-		float: none;
-	}
-    .single_new_top_one {
-        padding: 30px 15px 40px 20px;
-        max-width: 90%;
-        margin-left: 10%;
-		min-height: inherit;
-    }
-	.top_news_right_img img {
-		height: inherit;
-	}
-    .about {
-        background: #835fa8;
-        height: auto;
+    /*.call_us_menu{
         text-align: center;
     }
-    .main_feature_area{
+    .call_us_menu .call_us_bottom {
         text-align: center;
     }
-    .sections {
-        padding-top: 30px;
+    .call_us_menu p{
+        margin-bottom: 20px;
     }
-    .single_feature {
-        margin-top: 40px;
+    .call_us_menu .call_us_bottom .phone_numbr a {
+        font-size: 1.025rem;
+    }
+    .call_us_menu .phone_numbr {
+        padding-left: 10px;
+    }*/
+    .main_webhost_service_area .single_webhost_left_content p {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .main_webhost_service_area .single_webhost_right .single_webhost_right_content p {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature {
+        margin-bottom: 30px;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature p {
+        max-width: 50%;
+        margin: 0 auto;
     }
 
-    .single_portfolio a {
-        left: 36%;
-        top: 20%;
+    .clients .main_clients_area .main_clients_top_content .client_left_content {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 60%;
     }
-    .main_feature_area:before {
-        left: 40%;
+    .clients .main_clients_area .main_clients_top_content .client_left_content p {
+        font-size: 0.875rem;
+        font-family: 'ralewaylight';
+        max-width: 70%;
+        margin: 0 auto;
     }
+
+    .clients .main_clients_area .main_clients_top_content .single_right_client{
+        text-align: center;
+        margin-top:20px;
+    }
+    .main_clients_bottom_content .single_client_bottom {
+        max-width: 50%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .main_pricing{
+        text-align: center;
+    }
+    .single_right_planig{
+        text-align: center;
+    }
+    .contactwithmap_menu{
+        text-align: center;
+    }
+
+
 
 
 
@@ -131,22 +159,68 @@ Author URI: http://www.bootstrapthemes.co
 
 
 /* Landscape phones and smaller */
-@media (max-width: 479px) {
+@media (min-width:320px) and (max-width: 479px) {
     html {
         font-size: 65%;
     }
-
-
-    .single_widget_right .submit_btn span {
-        line-height: 54px;
+    .header_top_bar{
+        display: none;
     }
-    .single_portfolio a {
-        left: 20%;
-        top: 0%;
+    .header_top_bar{
+        display: none;
     }
-    .main_feature_area:before {
-        left: 40%;
-    }   
+    .navbar-brand>img {
+        max-width: 70%;
+    }
+    .main_webhost_service_area .single_webhost_left_content p {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .main_webhost_service_area .single_webhost_right .single_webhost_right_content p {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature {
+        margin-bottom: 30px;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature p {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .clients .main_clients_area .main_clients_top_content .client_left_content {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 60%;
+    }
+    .clients .main_clients_area .main_clients_top_content .client_left_content p {
+        font-size: 0.875rem;
+        font-family: 'ralewaylight';
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .clients .main_clients_area .main_clients_top_content .single_right_client{
+        text-align: center;
+        margin-top:20px;
+    }
+    .main_clients_bottom_content .single_client_bottom {
+        max-width: 50%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .main_pricing{
+        text-align: center;
+    }
+    .single_right_planig{
+        text-align: center;
+    }
+    .contactwithmap_menu{
+        text-align: center;
+    }
+	.slider .single_slider h3 {
+    font-size: 2.5rem;
+	}
 
 
 
@@ -160,21 +234,58 @@ Author URI: http://www.bootstrapthemes.co
     html {
         font-size: 60.5%;
     }
-    .single_portfolio a {
-        left: 15%;
-        top: 0%;
+    .header_top_bar{
+        display: none;
+        
     }
-    .single_portfolio a.btn {
-        margin-top: 12px;
+    .navbar-brand>img {
+        max-width: 50%;
     }
-    .main_feature_area:before {
-        left: 30%;
+    .main_webhost_service_area .single_webhost_left_content p {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .main_webhost_service_area .single_webhost_right .single_webhost_right_content p {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature {
+        margin-bottom: 30px;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature p {
+        max-width: 50%;
+        margin: 0 auto;
     }
 
+    .clients .main_clients_area .main_clients_top_content .client_left_content {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 60%;
+    }
+    .clients .main_clients_area .main_clients_top_content .client_left_content p {
+        font-size: 0.875rem;
+        font-family: 'ralewaylight';
+        max-width: 70%;
+        margin: 0 auto;
+    }
 
-
-
-
-
+    .clients .main_clients_area .main_clients_top_content .single_right_client{
+        text-align: center;
+        margin-top:20px;
+    }
+    .main_clients_bottom_content .single_client_bottom {
+        max-width: 50%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .main_pricing{
+        text-align: center;
+    }
+    .single_right_planig{
+        text-align: center;
+    }
+    .contactwithmap_menu{
+        text-align: center;
+    }
 }
 
